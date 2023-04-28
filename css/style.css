@@ -1,3 +1,5 @@
+
+
 :root {
 	/* Color */
     --secondary-txt-cl: #434455;
@@ -14,15 +16,32 @@
     --secondaty-font: Raleway, sans-serif;
 
     /* Others */
-
-
 }
 
 /* Header */
 .header {
+    padding-top: 0;
+    padding-bottom: 0;
     background: var(--header-cl);
-    display: flex;
 }
+
+
+.header-container {
+    display: flex;
+    align-items: center;
+    margin-left: 156px;
+    
+}
+
+
+.link-logo {
+    margin-left: 156px;
+}
+
+.header-contact {
+    margin-right: 40px;
+}
+
 
 .list {
     list-style: none;
@@ -43,10 +62,51 @@ body {
 
 .nav {
     display: flex;
+    align-items: center;
+}
 
+.header-nav-list {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    margin-left: 76px;
+}
+
+.header-nav-list,
+.header-link,
+.link-logo {
+    padding: 24px 0;
 }
 
 
+
+/* Reset */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+
+.img {
+    display: block;
+}
+
+.button {
+    cursor: pointer;
+}
+
+.container {
+    width: 1128px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+    outline: 2px solid red;
+    outline-offset: -2px;
+}
 
 .nav-link {
     font-weight: 500;
@@ -81,6 +141,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
     text-decoration: none;
+    margin-left: auto;
 }
 
 /* Logo webstudio */
@@ -113,6 +174,11 @@ body {
     text-align: center;
     letter-spacing: 0.02em;
     color: #FFFFFF;
+    width: 496px;
+    margin: 0 auto;
+    padding-top: 188px;
+    padding-bottom: 48px;
+
 }
 
 .hero {
@@ -123,13 +189,26 @@ body {
     font-family: var(--primary-font);
     font-weight: 500;
     font-size: 16px;
-    width: 169px;
-    height: 56px;
+
+    min-width: 169px;
+    min-height: 56px;
+    padding: 16px 32px;
+    
+    border-radius: 4px;
+
     line-height: 1.5;
     letter-spacing: 0.04em;
     color: var(--header-cl);
     background: var(--logo-txt-cl);
-    cursor: pointer;    
+    cursor: pointer;   
+    
+    margin-bottom: 188px;
+}
+
+.main-btn {
+    display: block;
+    margin: 0 auto;
+    
 }
 
 .btn:hover,
@@ -156,6 +235,7 @@ body {
     letter-spacing: 0.02em;
     color: var(--main-txt-cl);
     display: flex;
+    margin-bottom: 8px;
 }
 
 .desc,
@@ -165,6 +245,7 @@ body {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--secondary-txt-cl);
+    margin-top: 0;
 }
 
 /* Action section */
@@ -172,6 +253,15 @@ body {
 .actions-section {
     background: var(--header-cl);
 }
+
+.actions-img {
+
+}
+
+.title-name {
+    
+}
+
 
 /* Team section */
 .team-section {
@@ -198,13 +288,38 @@ body {
     background: var(--header-cl);
 }
 
+.feature-list {
+    
+    
+}
+
+
+.container {    
+    width: 1128px;
+    margin: 0 auto;
+}
+
+.feature-item {
+    flex-wrap: wrap;
+}
+
+.feature-block {
+    margin-bottom: 8px;
+    gap: 24px;
+}
+
 .section-title {
-font-size: 36px;
-line-height: 1.11;
-text-align: center;
-letter-spacing: 0.02em;
-text-transform: capitalize;
-color: var(--main-txt-cl);
+    font-size: 36px;
+    line-height: 1.11;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: var(--main-txt-cl);
+}
+
+.title-name {
+    margin-top: 0;
+    margin-bottom: 72px;
 }
 
 /* Footer */
