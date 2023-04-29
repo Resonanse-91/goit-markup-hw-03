@@ -18,10 +18,11 @@ ul {
 }
 /* Header */
 .header {
-  padding-top: 0;
-  padding-bottom: 0;
   background: var(--header-cl);
   border-bottom: 1px solid #e7e9fc;
+  width: 1128px;
+  padding: 0 15px;
+
 }
 
 .header-container {
