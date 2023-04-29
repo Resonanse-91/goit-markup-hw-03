@@ -18,10 +18,13 @@ ul {
 }
 /* Header */
 .header {
+  padding-top: 0;
+  padding-bottom: 0;
   background: var(--header-cl);
   border-bottom: 1px solid #e7e9fc;
   width: 1128px;
   padding: 0 15px;
+  margin: 0 auto;
 
 }
 
@@ -60,6 +63,7 @@ body {
   list-style: none;
   display: flex;
   gap: 40px;
+  
   margin-left: 76px;
 }
 
@@ -67,6 +71,10 @@ body {
 .header-link,
 .link-logo {
   padding: 24px 0;
+}
+
+.link-logo {
+  margin-right: 76px;
 }
 
 /* Reset */
@@ -242,9 +250,6 @@ img {
 }
 
 .actions-img {
-}
-
-.title-name {
 }
 
 /* Team section */
@@ -429,9 +434,7 @@ section {
 }
 
 .command-list {
-  display: flex;
-  justify-content: center;
-  gap: 24px;
+  width: calc((100% - 72px) / 4);
 }
 
 .navigator-list {
