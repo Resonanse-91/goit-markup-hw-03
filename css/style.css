@@ -434,7 +434,9 @@ section {
 }
 
 .command-list {
-  width: calc((100% - 72px) / 4);
+  display: flex;
+  justify-content: center;
+  gap: 24px;
 }
 
 .navigator-list {
