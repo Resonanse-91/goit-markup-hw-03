@@ -101,6 +101,7 @@ img {
   width: 1128px;
   padding: 0 15px;
   margin: 0 auto;
+  padding: 96px 0 120px;
 
   /* outline: 2px solid red; */
   outline-offset: -2px;
@@ -304,10 +305,6 @@ img {
 .feature-list {
 }
 
-.container {
-  width: 1128px;
-  margin: 0 auto;
-}
 
 .feature-item {
   flex-wrap: wrap;
@@ -398,7 +395,7 @@ img {
 }
 
 .navigator-list {
-  padding: 96px 0 120px;
+  
 }
 
 .navigator-btn:hover,
