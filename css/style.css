@@ -140,7 +140,7 @@ img {
   color: var(--secondary-txt-cl);
   text-decoration: none;
   margin-left: auto;
-  /* gap: 40px; */
+  gap: 40px;
 }
 
 /* Logo webstudio */
@@ -207,6 +207,8 @@ img {
 .main-btn {
   display: block;
   margin: 0 auto;
+  height: 56px;
+  border: none;
 }
 
 .btn:hover,
