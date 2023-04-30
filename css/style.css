@@ -159,6 +159,10 @@ img {
   text-decoration: none;
 }
 
+.link-logo-footer {
+  margin-bottom: 16px;
+}
+
 .link-first {
   color: var(--main-txt-cl);
 }
@@ -342,8 +346,9 @@ img {
 .footer {
   height: 312px;
   background: var(--main-txt-cl);
-  display: flex;
+  display: inline-block;
   align-items: center;
+  padding: 100px 0;
 }
 
 .text {
