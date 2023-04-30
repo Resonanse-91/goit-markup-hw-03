@@ -296,6 +296,10 @@ img {
   margin-bottom: 8px;
 }
 
+.name-prof-title {
+  padding: 32px 16px;
+}
+
 /* Feature section */
 .feature-section {
   background: var(--header-cl);
