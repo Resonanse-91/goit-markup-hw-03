@@ -183,7 +183,6 @@ img {
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
-  padding: 96px 0 120px;
 }
 
 .hero {
@@ -305,6 +304,10 @@ img {
 .feature-list {
 }
 
+.container {
+  width: 1128px;
+  margin: 0 auto;
+}
 
 .feature-item {
   flex-wrap: wrap;
@@ -395,7 +398,7 @@ img {
 }
 
 .navigator-list {
-  
+  padding: 96px 0 120px;
 }
 
 .navigator-btn:hover,
