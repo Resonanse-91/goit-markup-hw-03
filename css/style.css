@@ -393,6 +393,10 @@ img {
   border: none;
 }
 
+.navigaror-section {
+  padding: 96px 0 120px;
+}
+
 .navigator-btn:hover,
 .navigator-btn:focus {
   background-color: var(--btn-f-bg);
