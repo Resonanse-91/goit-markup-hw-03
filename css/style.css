@@ -438,6 +438,7 @@ img {
   height: 420px;
   border: 1px solid #e7e9fc;
   text-decoration: none;
+  width: calc((100% - 48px) / 3);
 }
 
 .actions-list {
@@ -475,7 +476,6 @@ section {
   margin: 0;
   flex-wrap: wrap;
   gap: 24px;
-  width: calc((100% - 48px) / 3);
   row-gap: 48px;
 }
 
