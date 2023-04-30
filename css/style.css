@@ -61,8 +61,7 @@ body {
 .header-nav-list {
   list-style: none;
   display: flex;
-  /* gap: 40px; */
-  
+  gap: 40px;  
   margin-left: 76px;
 }
 
@@ -485,5 +484,5 @@ section {
 
 .poster-card {
   padding: 32px 16px;
-  border: 1px solid #e7e9fc;
+  
 }
