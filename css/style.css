@@ -393,8 +393,12 @@ img {
   border: none;
 }
 
-.navigaror-section {
+.main-navigator {
   padding: 96px 0 120px;
+}
+
+.navigaror-section {
+  
 }
 
 .navigator-list {
