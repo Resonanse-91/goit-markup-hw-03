@@ -30,6 +30,7 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
+  width: 1158px;
 }
 
 .header-contact {
@@ -398,7 +399,7 @@ img {
 }
 
 .navigator-list {
-  padding: 96px 0 120px;
+  /* padding: 96px 0 120px; */
 }
 
 .navigator-btn:hover,
