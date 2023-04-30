@@ -157,6 +157,7 @@ img {
   text-transform: uppercase;
   color: var(--logo-txt-cl);
   text-decoration: none;
+  display: inline-block;
 }
 
 .link-logo-footer {
@@ -346,7 +347,7 @@ img {
 .footer {
   height: 312px;
   background: var(--main-txt-cl);
-  display: inline-block;
+  display: flex;
   align-items: center;
   padding: 100px 0;
 }
