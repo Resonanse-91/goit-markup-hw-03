@@ -398,7 +398,7 @@ img {
 }
 
 .navigator-list {
-  
+  padding: 96px 0 120px;
 }
 
 .navigator-btn:hover,
@@ -407,9 +407,8 @@ img {
   color: var(--header-cl);
 }
 
-.main-navigator {
+.main {
   background-color: var(--header-cl);
-  padding: 96px 0 120px;
 }
 
 .poster-subtitle {
