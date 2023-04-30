@@ -477,7 +477,6 @@ section {
   flex-wrap: wrap;
   gap: 24px;
   row-gap: 48px;
-  border: 1px solid #e7e9fc;
 }
 
 .logo-img {
