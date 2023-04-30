@@ -482,3 +482,7 @@ section {
 .logo-img {
   margin-bottom: 32px;
 }
+
+.poster-card {
+  padding: 32px 16px;
+}
