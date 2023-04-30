@@ -418,6 +418,7 @@ img {
 
 .main {
   background-color: var(--header-cl);
+  padding: 96px 0 120px;
 }
 
 .poster-subtitle {
