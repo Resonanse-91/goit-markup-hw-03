@@ -71,6 +71,10 @@ body {
   padding: 24px 0;
 }
 
+.header-link {
+  gap: 40px;
+}
+
 .link-logo {
   margin-right: 76px;
 }
