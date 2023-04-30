@@ -412,6 +412,8 @@ img {
 .navigator-btn:focus {
   background-color: var(--btn-f-bg);
   color: var(--header-cl);
+  border: 1px solid transparent;
+  border: 1px solid transparent;
 }
 
 .main {
