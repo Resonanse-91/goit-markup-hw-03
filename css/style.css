@@ -101,7 +101,6 @@ img {
   width: 1128px;
   padding: 0 15px;
   margin: 0 auto;
-  padding: 96px 0 120px;
 
   /* outline: 2px solid red; */
   outline-offset: -2px;
@@ -184,6 +183,7 @@ img {
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
+  padding: 96px 0 120px;
 }
 
 .hero {
