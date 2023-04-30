@@ -311,6 +311,7 @@ img {
 
 .feature-item {
   flex-wrap: wrap;
+  width:calc((100% - 72px) / 4)
 }
 
 .feature-block {
