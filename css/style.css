@@ -30,7 +30,6 @@ ul {
 .header-container {
   display: flex;
   align-items: center;
-  width: 1158px;
 }
 
 .header-contact {
@@ -99,7 +98,7 @@ img {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   padding: 0 15px;
   margin: 0 auto;
 
@@ -303,11 +302,6 @@ img {
 }
 
 .feature-list {
-}
-
-.container {
-  width: 1128px;
-  margin: 0 auto;
 }
 
 .feature-item {
