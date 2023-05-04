@@ -187,7 +187,6 @@ img {
   max-width: 496px;
   margin: 0 auto;
   margin-bottom: 48px;
-  padding: 188px 0;
 }
 
 .hero {
@@ -456,6 +455,7 @@ img {
   display: block;
   justify-content: center;
   align-items: center;
+  padding: 188px 0;
 }
 
 .command-list {
