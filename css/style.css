@@ -135,7 +135,6 @@ img {
   line-height: 1.11;
   letter-spacing: 0.02em;
   color: var(--main-txt-cl);
-  padding: 120px 0;
 }
 
 .adress {
@@ -274,6 +273,7 @@ img {
 /* Team section */
 .team-section {
   background: var(--main-footer-cl);
+  padding: 120px 0;
 }
 
 .team-title {
