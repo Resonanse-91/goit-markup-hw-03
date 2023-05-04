@@ -265,6 +265,7 @@ img {
 
 .actions-section {
   background: var(--header-cl);
+  padding-bottom: 120px;
 }
 
 .actions-img {
@@ -318,7 +319,6 @@ img {
 }
 
 .feature-list {
-  padding-bottom: 120px;
 }
 
 .feature-item {
