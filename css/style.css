@@ -315,10 +315,10 @@ img {
 /* Feature section */
 .feature-section {
   background: var(--header-cl);
+  padding-bottom: 120px;
 }
 
 .feature-list {
-  padding-bottom: 120px;
 }
 
 .feature-item {
